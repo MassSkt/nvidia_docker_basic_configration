@@ -1,5 +1,5 @@
 FROM nvidia/cuda:9.0-cudnn7-devel
-ENV NB_USER soinn
+ENV NB_USER masskt
 ENV NB_UID 1000
 RUN set -x && \
     apt-get update -y && \
